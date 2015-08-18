@@ -1,0 +1,16 @@
+/* # Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media screen and(max-width:1200px){
+	.site-container{
+		@include container(95%);
+	}
+	
+	.site-inner ,.wrap{
+		@include container(95%);
+	}
+	
+	.no-sidebar .content{
+		width:90%
+	}
+}
