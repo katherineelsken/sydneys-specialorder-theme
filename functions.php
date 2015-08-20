@@ -193,3 +193,4 @@ genesis_register_sidebar( array(
 'description' => __( 'Home Widget Area', 'Sydneys' ),
 ) );
 
+?>
