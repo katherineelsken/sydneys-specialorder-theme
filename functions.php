@@ -193,12 +193,3 @@ genesis_register_sidebar( array(
 'description' => __( 'Home Widget Area', 'Sydneys' ),
 ) );
 
-/* Require Authentication for Intranet */
-
-function my_force_login() {
-global $post;
-
-if (!is_user_logged_in()) {
-    auth_redirect();
-    }
-}  
