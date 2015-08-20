@@ -145,9 +145,6 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 //Load The Custom Order Post Type
 include_once ('inc/order-post-type.php');
 
-//Customer Post Type
-include_once('inc/customer-post-type.php');
-
 //Load Advanced Custom Fields Search Config
 include_once('inc/acf-search.php');
 
